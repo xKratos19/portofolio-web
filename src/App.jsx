@@ -1,16 +1,17 @@
 import { useEffect } from 'react';
 import { BrowserRouter } from "react-router-dom";
-import { ReactGA } from 'react-ga4';
+// import { ReactGA } from 'react-ga4';
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
-const tracking_id = "G-D94KCFSKJH";
 
 const App = () => {
 
-  useEffect(() => {
-    ReactGA.initialize(tracking_id); ReactGA.send("pageview");
-  }, [])
+    // ReactGA.initialize("G-D94KCFSKJH");
+
+    // useEffect(() => {
+    // ReactGA.send("pageview");
+    // }, [])
 
   return (
     <BrowserRouter>
