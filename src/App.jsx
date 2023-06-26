@@ -1,17 +1,10 @@
 import { useEffect } from 'react';
 import { BrowserRouter } from "react-router-dom";
-// import { ReactGA } from 'react-ga4';
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
 
 const App = () => {
-
-    // ReactGA.initialize("G-D94KCFSKJH");
-
-    // useEffect(() => {
-    // ReactGA.send("pageview");
-    // }, [])
 
   return (
     <BrowserRouter>
