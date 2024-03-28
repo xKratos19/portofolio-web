@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capacitor/core": "^5.7.4",
+    "@capacitor/ios": "^5.7.4",
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.74.15",
     "@react-three/fiber": "^8.13.1",
@@ -26,6 +28,7 @@
     "three-stdlib": "^2.23.9"
   },
   "devDependencies": {
+    "@capacitor/cli": "^5.7.4",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.0.0",
