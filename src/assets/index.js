@@ -30,6 +30,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ragProject from "./rag-project.svg";
+import homelab from "./homelab.svg";
 
 export {
   logo,
@@ -60,5 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  ragProject,
+  homelab,
   candour,
 };
